@@ -3,7 +3,7 @@ package unionfs
 import (
 	"os"
 
-	"github.com/hanwen/go-fuse/fuse/pathfs"
+	"github.com/bpowers/go-fuse/fuse/pathfs"
 )
 
 func NewUnionFsFromRoots(roots []string, opts *UnionFsOptions, roCaching bool) (pathfs.FileSystem, error) {

@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/hanwen/go-fuse/benchmark"
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/benchmark"
+	"github.com/bpowers/go-fuse/fuse"
 	"io"
 	"log"
 	"os"

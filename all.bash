@@ -10,17 +10,17 @@ for target in "clean" "install" ; do
     if test "${target}" = "install" && test "${d}" = "fuse/test"; then
       continue
     fi
-    go ${target} github.com/hanwen/go-fuse/${d}
+    go ${target} github.com/bpowers/go-fuse/${d}
   done
 done
 
 for d in fuse zipfs unionfs
 do
-  (cd $d && go test github.com/hanwen/go-fuse/$d && go test -race github.com/hanwen/go-fuse/$d)
+  (cd $d && go test github.com/bpowers/go-fuse/$d && go test -race github.com/bpowers/go-fuse/$d)
 done
 
 make -C benchmark
 for d in benchmark
 do
-  go test github.com/hanwen/go-fuse/benchmark -test.bench '.*' -test.cpu 1,2
+  go test github.com/bpowers/go-fuse/benchmark -test.bench '.*' -test.cpu 1,2
 done

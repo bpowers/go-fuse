@@ -5,7 +5,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse"
 )
 
 // openedFile stores either an open dir or an open file.

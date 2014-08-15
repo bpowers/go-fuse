@@ -4,7 +4,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse"
 )
 
 // An Inode reflects the kernel's idea of the inode.  Inodes have IDs

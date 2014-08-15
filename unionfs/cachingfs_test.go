@@ -6,8 +6,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/pathfs"
+	"github.com/bpowers/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse/pathfs"
 )
 
 func modeMapEq(m1, m2 map[string]uint32) bool {

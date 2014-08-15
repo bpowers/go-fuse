@@ -8,7 +8,7 @@ package nodefs
 import (
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse"
 )
 
 // The Node interface implements the user-defined file system

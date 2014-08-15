@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/pathfs"
+	"github.com/bpowers/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse/pathfs"
 )
 
 // newDirnameMap reads the contents of the given directory. On error,

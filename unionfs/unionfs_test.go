@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/nodefs"
-	"github.com/hanwen/go-fuse/fuse/pathfs"
+	"github.com/bpowers/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse/nodefs"
+	"github.com/bpowers/go-fuse/fuse/pathfs"
 )
 
 func TestFilePathHash(t *testing.T) {

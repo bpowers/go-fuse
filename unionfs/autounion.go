@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/nodefs"
-	"github.com/hanwen/go-fuse/fuse/pathfs"
+	"github.com/bpowers/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse/nodefs"
+	"github.com/bpowers/go-fuse/fuse/pathfs"
 )
 
 type knownFs struct {
@@ -291,7 +291,7 @@ func (fs *autoUnionFs) Symlink(pointedTo string, linkName string, context *fuse.
 }
 
 func (fs *autoUnionFs) SetDebug(b bool) {
-	// TODO(hanwen): this should use locking.
+	// TODO(bpowers): this should use locking.
 	fs.debug = b
 	fs.nodeFs.SetDebug(b)
 

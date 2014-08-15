@@ -3,7 +3,7 @@ package pathfs
 import (
 	"syscall"
 
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse"
 )
 
 func (fs *loopbackFileSystem) StatFs(name string) *fuse.StatfsOut {

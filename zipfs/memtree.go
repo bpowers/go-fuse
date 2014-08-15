@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/nodefs"
+	"github.com/bpowers/go-fuse/fuse"
+	"github.com/bpowers/go-fuse/fuse/nodefs"
 )
 
 type MemFile interface {
